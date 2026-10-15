@@ -1,0 +1,27 @@
+# Secrets and local config
+.env
+*.env.local
+application-local.properties
+application-local.yml
+
+# Java / Maven / Gradle
+target/
+build/
+.gradle/
+*.class
+*.jar
+*.log
+hs_err_pid*
+
+# Node / Frontend
+node_modules/
+dist/
+coverage/
+.vite/
+
+# IDEs and OS
+.idea/
+*.iml
+.vscode/
+.DS_Store
+Thumbs.db
